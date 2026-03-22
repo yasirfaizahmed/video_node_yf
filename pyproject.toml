@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-videoconfiganimate"
+version = "1.0.0"
+description = "Video resolution and frame config node for Wan2.2 Animate workflows"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/YOUR_USERNAME/ComfyUI-VideoConfigAnimate"
+
+[tool.comfy]
+PublisherId = "YOUR_USERNAME"
+DisplayName = "ComfyUI-VideoConfigAnimate"
+Icon = ""
