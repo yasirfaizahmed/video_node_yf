@@ -1,14 +1,36 @@
 [project]
-name = "comfyui-videoconfiganimate"
+name = "video_node_yf"
+description = ""
 version = "1.0.0"
-description = "Video resolution and frame config node for Wan2.2 Animate workflows"
-license = { file = "LICENSE" }
-dependencies = []
+license = {file = "LICENSE"} 
+# classifiers = [
+#     # For OS-independent nodes (works on all operating systems)
+#     "Operating System :: OS Independent",
+#
+#     # OR for OS-specific nodes, specify the supported systems:
+#     "Operating System :: Microsoft :: Windows",  # Windows specific
+#     "Operating System :: POSIX :: Linux",  # Linux specific
+#     "Operating System :: MacOS",  # macOS specific
+#
+#     # GPU Accelerator support. Pick the ones that are supported by your extension.
+#     "Environment :: GPU :: NVIDIA CUDA",    # NVIDIA CUDA support
+#     "Environment :: GPU :: AMD ROCm",       # AMD ROCm support
+#     "Environment :: GPU :: Intel Arc",      # Intel Arc support
+#     "Environment :: NPU :: Huawei Ascend",  # Huawei Ascend support
+#     "Environment :: GPU :: Apple Metal",    # Apple Metal support
+# ]
+# pat-1c9010e5-d4dc-4fbc-ba4e-98635e8bf7c0
 
 [project.urls]
-Repository = "https://github.com/YOUR_USERNAME/ComfyUI-VideoConfigAnimate"
+Repository = "https://github.com/yasirfaizahmed/video_node_yf"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/yasirfaizahmed/video_node_yf/wiki"
+"Bug Tracker" = "https://github.com/yasirfaizahmed/video_node_yf/issues"
 
 [tool.comfy]
-PublisherId = "YOUR_USERNAME"
-DisplayName = "ComfyUI-VideoConfigAnimate"
+PublisherId = "yasir"
+DisplayName = "video_node_yf"
 Icon = ""
+includes = [] 
+# "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
+
